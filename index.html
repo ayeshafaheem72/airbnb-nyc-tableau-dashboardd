@@ -1,75 +1,195 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>NYC Airbnb Interactive Dashboard</title>
+    <meta charset="UTF-8">
+    <title>NYC Airbnb Interactive Dashboard | DS451</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            background-color: #f4f4f4;
+            font-family: "Segoe UI", Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            color: #222;
+            line-height: 1.7;
         }
-        h1, h2 {
-            color: #333;
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 50px 40px;
         }
-        .section {
-            background: white;
-            padding: 20px;
+
+        h1 {
+            font-size: 40px;
+            font-weight: 800;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 26px;
+            margin-top: 50px;
+            border-bottom: 3px solid #444;
+            padding-bottom: 5px;
+        }
+
+        h3 {
+            font-size: 20px;
+            margin-top: 30px;
+        }
+
+        .highlight {
+            font-size: 20px;
+            font-weight: 700;
             margin-bottom: 20px;
+        }
+
+        .meta {
+            font-size: 18px;
+            font-weight: 600;
+            margin-top: 10px;
+        }
+
+        .section {
+            background-color: #ffffff;
+            padding: 30px;
+            margin-top: 30px;
             border-radius: 8px;
         }
+
+        ul {
+            margin-top: 15px;
+        }
+
         a {
-            color: #d94f4f;
+            color: #b03a3a;
             text-decoration: none;
+            font-weight: 600;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            margin-top: 80px;
+            text-align: center;
+            font-size: 14px;
+            color: #555;
         }
     </style>
 </head>
 <body>
 
-<h1>NYC Airbnb Interactive Dashboard</h1>
+<div class="container">
 
-<div class="section">
-    <h2>Team Members</h2>
-    <p>Ayesha Faheem</p>
-</div>
+    <!-- MAIN TITLE -->
+    <h1>NYC Airbnb Interactive Data Visualization Dashboard</h1>
 
-<div class="section">
-    <h2>Project Description</h2>
-    <p>
-        This project presents an interactive Tableau dashboard analyzing Airbnb listings in New York City.
-        The dashboard explores pricing trends, neighborhood distributions, booking seasonality,
-        and host activity using temporal and interactive visualizations.
+    <p class="highlight">
+        Data Visualization Course Project (DS451)
     </p>
-</div>
 
-<div class="section">
-    <h2>Dataset Description</h2>
-    <p>
-        Dataset: AB_NYC_2019.csv<br>
-        Source: Inside Airbnb<br>
-        Size: ~49,000 listings across 221 NYC neighborhoods
+    <p class="meta">
+        Instructor: <strong>Dr. Farah</strong>
     </p>
-</div>
 
-<div class="section">
-    <h2>Tools & Technologies</h2>
-    <ul>
-        <li>Tableau</li>
-        <li>GitHub Pages</li>
-        <li>HTML & CSS</li>
-    </ul>
-</div>
+    <p class="meta">
+        Team Members:<br>
+        <strong>Ayesha Faheem (2022131)</strong><br>
+        <strong>Khadija Nawaz (2022250)</strong>
+    </p>
 
-<div class="section">
-    <h2>Project Repository</h2>
-    <a href="https://github.com/YOUR_USERNAME/airbnb-nyc-tableau-dashboard">
-        View GitHub Repository
-    </a>
-</div>
+    <!-- PROJECT DESCRIPTION -->
+    <div class="section">
+        <h2>Project Description</h2>
+        <p>
+            This project focuses on designing an interactive data visualization dashboard that explores
+            Airbnb listings in New York City. The goal of the dashboard is to transform a large and complex
+            dataset into meaningful visual insights that help users understand pricing trends, neighborhood
+            patterns, booking seasonality, and host activity.
+        </p>
 
-<div class="section">
-    <h2>Dashboard Walkthrough Video</h2>
-    <p>Link will be added here.</p>
+        <p>
+            Instead of relying on static charts, this project emphasizes interactivity and temporal analysis,
+            allowing users to explore the data dynamically through filters, maps, and time-based visualizations.
+            The dashboard is designed for both analytical clarity and ease of exploration.
+        </p>
+    </div>
+
+    <!-- WHY THIS DATASET -->
+    <div class="section">
+        <h2>Why This Dataset?</h2>
+        <p>
+            As students, we often work with datasets that feel abstract or disconnected from real-world impact.
+            We chose the NYC Airbnb dataset because it represents a system most people are already familiar with:
+            short-term rentals, pricing competition, and urban living.
+        </p>
+
+        <p>
+            The dataset contains thousands of listings across diverse neighborhoods, making it ideal for
+            practicing exploratory data analysis, spatial visualization, and temporal trend analysis. Its
+            real-world relevance helped keep the analysis engaging rather than feeling like another repetitive
+            academic exercise.
+        </p>
+    </div>
+
+    <!-- DATASET DESCRIPTION -->
+    <div class="section">
+        <h2>Dataset Description</h2>
+        <p>
+            The dataset used in this project is <strong>AB_NYC_2019.csv</strong>, sourced from the Inside Airbnb
+            initiative. It includes information about Airbnb listings across New York City.
+        </p>
+
+        <ul>
+            <li>Approximately 49,000 listings</li>
+            <li>221 unique neighborhoods</li>
+            <li>5 neighborhood groups (Manhattan, Brooklyn, Queens, Bronx, Staten Island)</li>
+            <li>Attributes include price, room type, number of reviews, availability, and host information</li>
+        </ul>
+
+        <p>
+            The dataset supports both numerical and categorical analysis, making it well-suited for building
+            a multi-layered interactive dashboard.
+        </p>
+    </div>
+
+    <!-- TOOLS -->
+    <div class="section">
+        <h2>Tools and Technologies Used</h2>
+        <ul>
+            <li><strong>Tableau</strong> – for building interactive and temporal visualizations</li>
+            <li><strong>GitHub Pages</strong> – for hosting the project webpage</li>
+            <li><strong>HTML & CSS</strong> – for structuring and styling the project website</li>
+        </ul>
+
+        <p>
+            Tableau was selected because it allows rapid development of professional dashboards while
+            supporting advanced features such as filters, maps, calculated fields, and dynamic interaction
+            without extensive programming overhead.
+        </p>
+    </div>
+
+    <!-- LINKS -->
+    <div class="section">
+        <h2>Project Links</h2>
+        <p>
+            <a href="https://github.com/ayeshafaheem72/airbnb-nyc-tableau-dashboardd" target="_blank">
+                GitHub Repository
+            </a>
+        </p>
+        <p>
+            Tableau Dashboard and video walkthrough links are included in the repository.
+        </p>
+    </div>
+
+    <div class="footer">
+        DS451 – Data Visualization | Fall 2025
+    </div>
+
 </div>
 
 </body>
 </html>
+
+
