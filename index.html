@@ -14,7 +14,7 @@
         }
 
         .container {
-            max-width: 1000px;
+            max-width: 1100px;
             margin: auto;
             padding: 50px 40px;
         }
@@ -30,11 +30,6 @@
             margin-top: 50px;
             border-bottom: 3px solid #444;
             padding-bottom: 5px;
-        }
-
-        h3 {
-            font-size: 20px;
-            margin-top: 30px;
         }
 
         .highlight {
@@ -82,95 +77,71 @@
 
 <div class="container">
 
-    <!-- MAIN TITLE -->
     <h1>NYC Airbnb Interactive Data Visualization Dashboard</h1>
 
-    <p class="highlight">
-        Data Visualization Course Project (DS451)
-    </p>
+    <p class="highlight">Data Visualization Course Project (DS451)</p>
+
+    <p class="meta"><strong>Instructor:</strong> Dr. Farah</p>
 
     <p class="meta">
-        Instructor: <strong>Dr. Farah</strong>
+        <strong>Team Members:</strong><br>
+        Ayesha Faheem (2022131)<br>
+        Khadija Nawaz (2022250)
     </p>
 
-    <p class="meta">
-        Team Members:<br>
-        <strong>Ayesha Faheem (2022131)</strong><br>
-        <strong>Khadija Nawaz (2022250)</strong>
-    </p>
-
-    <!-- PROJECT DESCRIPTION -->
     <div class="section">
         <h2>Project Description</h2>
         <p>
-            This project focuses on designing an interactive data visualization dashboard that explores
-            Airbnb listings in New York City. The goal of the dashboard is to transform a large and complex
-            dataset into meaningful visual insights that help users understand pricing trends, neighborhood
-            patterns, booking seasonality, and host activity.
+            This project presents an interactive data visualization dashboard designed to explore Airbnb
+            listings across New York City. The objective is to transform a large real-world dataset into
+            meaningful insights related to pricing trends, neighborhood distributions, seasonal demand,
+            and host activity.
         </p>
-
         <p>
-            Instead of relying on static charts, this project emphasizes interactivity and temporal analysis,
-            allowing users to explore the data dynamically through filters, maps, and time-based visualizations.
-            The dashboard is designed for both analytical clarity and ease of exploration.
+            The dashboard emphasizes interactivity and temporal analysis, allowing users to dynamically
+            explore patterns through filters, maps, and time-based visualizations rather than static charts.
         </p>
     </div>
 
-    <!-- WHY THIS DATASET -->
     <div class="section">
         <h2>Why This Dataset?</h2>
         <p>
-            As students, we often work with datasets that feel abstract or disconnected from real-world impact.
-            We chose the NYC Airbnb dataset because it represents a system most people are already familiar with:
-            short-term rentals, pricing competition, and urban living.
+            We selected the NYC Airbnb dataset because it represents a real system that directly affects
+            urban life, housing, and tourism. Unlike abstract datasets often used in coursework, this data
+            reflects real economic and geographic patterns that users can easily relate to.
         </p>
-
         <p>
-            The dataset contains thousands of listings across diverse neighborhoods, making it ideal for
-            practicing exploratory data analysis, spatial visualization, and temporal trend analysis. Its
-            real-world relevance helped keep the analysis engaging rather than feeling like another repetitive
-            academic exercise.
+            Its size and diversity make it ideal for practicing exploratory data analysis, spatial mapping,
+            and temporal trend identification.
         </p>
     </div>
 
-    <!-- DATASET DESCRIPTION -->
     <div class="section">
         <h2>Dataset Description</h2>
         <p>
-            The dataset used in this project is <strong>AB_NYC_2019.csv</strong>, sourced from the Inside Airbnb
-            initiative. It includes information about Airbnb listings across New York City.
+            The dataset used is <strong>AB_NYC_2019.csv</strong>, sourced from the Inside Airbnb initiative.
         </p>
-
         <ul>
-            <li>Approximately 49,000 listings</li>
+            <li>~49,000 Airbnb listings</li>
             <li>221 unique neighborhoods</li>
-            <li>5 neighborhood groups (Manhattan, Brooklyn, Queens, Bronx, Staten Island)</li>
-            <li>Attributes include price, room type, number of reviews, availability, and host information</li>
+            <li>5 neighborhood groups</li>
+            <li>Attributes include price, room type, number of reviews, availability, and host details</li>
         </ul>
-
-        <p>
-            The dataset supports both numerical and categorical analysis, making it well-suited for building
-            a multi-layered interactive dashboard.
-        </p>
     </div>
 
-    <!-- TOOLS -->
     <div class="section">
         <h2>Tools and Technologies Used</h2>
         <ul>
-            <li><strong>Tableau</strong> – for building interactive and temporal visualizations</li>
-            <li><strong>GitHub Pages</strong> – for hosting the project webpage</li>
-            <li><strong>HTML & CSS</strong> – for structuring and styling the project website</li>
+            <li><strong>Tableau</strong> – interactive dashboard development</li>
+            <li><strong>GitHub Pages</strong> – project hosting</li>
+            <li><strong>HTML & CSS</strong> – webpage structure and styling</li>
         </ul>
-
         <p>
-            Tableau was selected because it allows rapid development of professional dashboards while
-            supporting advanced features such as filters, maps, calculated fields, and dynamic interaction
-            without extensive programming overhead.
+            Tableau was chosen for its strong support of interactive filtering, geographic visualizations,
+            and rapid dashboard prototyping without requiring extensive programming.
         </p>
     </div>
 
-    <!-- LINKS -->
     <div class="section">
         <h2>Project Links</h2>
         <p>
@@ -179,8 +150,49 @@
             </a>
         </p>
         <p>
-            Tableau Dashboard and video walkthrough links are included in the repository.
+            <a href="https://public.tableau.com/views/NYCAirbnbInteractiveDashboard_17664473369880/Dashboard1" target="_blank">
+                View Dashboard on Tableau Public
+            </a>
         </p>
+    </div>
+
+    <div class="section">
+        <h2>Interactive Tableau Dashboard</h2>
+        <p>
+            The interactive dashboard below allows users to explore pricing patterns, neighborhood trends,
+            and seasonal booking behavior across New York City.
+        </p>
+
+        <!-- TABLEAU EMBED START -->
+        <div class="tableauPlaceholder" id="viz1766447390336" style="position: relative;">
+            <noscript>
+                <a href="https://public.tableau.com/views/NYCAirbnbInteractiveDashboard_17664473369880/Dashboard1">
+                    <img alt="NYC Airbnb Dashboard"
+                         src="https://public.tableau.com/static/images/NY/NYCAirbnbInteractiveDashboard_17664473369880/Dashboard1/1_rss.png"
+                         style="border:none; width:100%;" />
+                </a>
+            </noscript>
+            <object class="tableauViz" style="display:none; width:100%; height:900px;">
+                <param name="host_url" value="https://public.tableau.com/" />
+                <param name="embed_code_version" value="3" />
+                <param name="name" value="NYCAirbnbInteractiveDashboard_17664473369880/Dashboard1" />
+                <param name="tabs" value="no" />
+                <param name="toolbar" value="yes" />
+                <param name="language" value="en-US" />
+            </object>
+        </div>
+
+        <script type="text/javascript">
+            var divElement = document.getElementById("viz1766447390336");
+            var vizElement = divElement.getElementsByTagName("object")[0];
+            vizElement.style.width = "100%";
+            vizElement.style.height = "900px";
+            var scriptElement = document.createElement("script");
+            scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+        <!-- TABLEAU EMBED END -->
+
     </div>
 
     <div class="footer">
@@ -189,25 +201,5 @@
 
 </div>
 
-<div class="section">
-    <h2>Interactive Tableau Dashboard</h2>
-    <p>
-        The full interactive dashboard is embedded below. Users can explore pricing trends,
-        neighborhood distributions, and temporal patterns using filters and interactive charts.
-    </p>
-
-    <!-- TABLEAU EMBED -->
-    <iframe 
-        src="<div class='tableauPlaceholder' id='viz1766447390336' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NY&#47;NYCAirbnbInteractiveDashboard_17664473369880&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='NYCAirbnbInteractiveDashboard_17664473369880&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NY&#47;NYCAirbnbInteractiveDashboard_17664473369880&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1766447390336');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1900px';vizElement.style.height='1327px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1900px';vizElement.style.height='1327px';} else { vizElement.style.width='100%';vizElement.style.height='3327px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>"
-        width="100%"
-        height="800"
-        frameborder="0"
-        allowfullscreen>
-    </iframe>
-</div>
-
-
 </body>
 </html>
-
-
